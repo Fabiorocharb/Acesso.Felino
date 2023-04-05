@@ -35,7 +35,101 @@ form {
   border-radius: 10%;
   margin-left: 58%;
 }
-#submit:hover{
-    background-color: blueviolet;
-    cursor: pointer;
+#submit:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+@media screen and (max-width: 1536px) and (min-width: 864px) {
+  body {
+    background-image: url(../image/15362.png);
+    background-size: cover;
+  }
+  form {
+    width: 30%;
+    margin-left: 59%;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 900px) {
+  body {
+    background-image: url(../image/14402.png);
+    background-size: cover;
+  }
+  form {
+    width: 31%;
+    margin-left: 53%;
+  }
+}
+@media screen and (max-width: 1366px) and (min-width: 768px) {
+  body {
+    background-image: url(../image/13662.png);
+  }
+  form {
+    width: 31%;
+    margin-left: 54%;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 950px) {
+  body {
+    background-image: url(../image/12802.png);
+  }
+  form {
+    width: 31%;
+    margin-left: 54%;
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+  body {
+    background-image: url(../image/10242.png);
+    background-size: cover;
+  }
+  form {
+    width: 33%;
+    margin-left: 52%;
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  body {
+    background-image: url(../image/480.2.png);
+    background-size: cover;
+  }
+  form {
+    width: 63%;
+    margin-left: 1%;
+    margin-top: 30%;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 846px) {
+  body {
+    background-image: url(../image/4122.png);
+    background-size: cover;
+  }
+  form {
+    width: 66%;
+    margin-left: 1%;
+    margin-top: 40%;
+  }
+}
+@media screen and (min-width: 393px) and (max-width: 786px) {
+  body {
+    background-image: url(../image/3932.png);
+    background-size: cover;
+  }
+  form {
+    width: 68%;
+    margin-left: 1%;
+    margin-top: 40%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  body {
+    background-image: url(../image/360.1.png);
+    background-size: cover;
+  }
+  form {
+    width: 68%;
+    margin-left: 1%;
+    margin-top: 40%;
+  }
 }
