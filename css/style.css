@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Cookie-Regular;
+  src: url(../fonts/Cookie-Regular.ttf);
+}
+Body {
+  width: 100%;
+  background-image: url(../image/pagina2.png);
+  background-repeat: no-repeat;
+}
+h1 {
+  font-family: Cookie-Regular;
+  font-size: 7vh;
+  color: black;
+  text-align: center;
+}
+section {
+  background-color: blueviolet;
+  width: 23%;
+  padding: 4%;
+  margin-top: 12%;
+  margin-left: 10%;
+  border-radius: 10%;
+  transition-duration: 3s;
+}
+input {
+  width: 100%;
+  padding: 3%;
+  border-radius: 8px;
+  margin-top: 5%;
+}
+button {
+  background-color: rgb(156, 144, 144);
+  border: none;
+  padding: 5px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: rgb(206, 228, 13);
+  cursor: pointer;
+}
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.forgot {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: aliceblue;
+  margin-top: 7px;
+  font-size: 1.6vh;
+}
+
+.account {
+  text-align: center;
+  color: aliceblue;
+  margin-left: 20%;
+}
