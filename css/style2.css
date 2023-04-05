@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Cookie-Regular;
+  src: url(../fonts/Cookie-Regular.ttf);
+}
+body {
+  background-image: url(../image/index2.png);
+}
+h1 {
+  font-family: Cookie-Regular;
+  font-size: 5vh;
+  text-align: center;
+}
+form {
+  text-align: center;
+}
+label {
+  font-family: cursive;
+  font-size: 2vh;
+}
+input {
+  width: 100%;
+  border-radius: 8px;
+  padding: 1%;
+}
+form {
+  background-color: aqua;
+  width: 23%;
+  padding: 4%;
+  margin-top: 9%;
+  border-radius: 10%;
+  margin-left: 58%;
+}
+#submit:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
